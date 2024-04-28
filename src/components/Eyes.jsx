@@ -8,8 +8,8 @@ function Eyes() {
           <div className="relative w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
             <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-2/3 h-2/3 bg-zinc-900 rounded-full"></div>
           </div>
-          <div className="w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
-            <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-2/3 h-2/3 bg-zinc-900 rounded-full"></div>
+          <div className="relative w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
+          <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-2/3 h-2/3 bg-zinc-900 rounded-full"></div>
           </div>
         </div>
       </div>
