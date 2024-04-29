@@ -6,13 +6,12 @@ function LandingPage() {
       <div className="textstructure mt-44 px-14">
         {["WE CREATE", "EYE OPENING", "PRESENTATIONS"].map((item, index) => {
           return (
-            <div className="masker">
+            <div key={index} className="masker">
               <div className="w-fit flex">
-                {index === 1 && (<div className="w-[8vw] h-[5.7vw] bg-green-500 relative -top-[1vw] rounded-md mr-[1vw]"></div>)}
-                <h1 
-                  key={index}
-                  className="uppercase text-[9vw] leading-[7vw] font-['Founders_Grotesk_X-Condensed'] font-semibold"
-                >
+                {index === 1 && (
+                  <div className="w-[8vw] h-[5.7vw] bg-green-500 relative -top-[1vw] rounded-md mr-[1vw]"></div>
+                )}
+                <h1 className="uppercase text-[9vw] leading-[7vw] font-['Founders_Grotesk_X-Condensed'] font-semibold">
                   {item}
                 </h1>
               </div>
@@ -25,7 +24,10 @@ function LandingPage() {
           "For public and private companies",
           "From the first pitch to the IPO",
         ].map((item, index) => (
-          <p className="text-md font-light tracking-tight leading-none">
+          <p
+            key={index}
+            className="text-md font-light tracking-tight leading-none"
+          >
             {item}
           </p>
         ))}
