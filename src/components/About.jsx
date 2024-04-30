@@ -11,11 +11,11 @@ function About() {
       <div className="flex gap-5 w-full border-t-[1px] mt-20 pt-4 border-[#a1b562]">
         <div className="w-1/2">
           <h1 className="text-6xl ">Our approach:</h1>
-          <button className="px-8 py-4 mt-4 bg-zinc-900 rounded-full text-white flex items-center gap-10 uppercase">Read More
+          <button className="px-6 py-4 mt-6 bg-zinc-900 rounded-full text-white flex items-center gap-10 uppercase font-['Neue_Montreal']">Read More
           <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[60vh] bg-[#b0c859] rounded-3xl"></div>
+        <div className="w-2/3 h-[60vh]"><img style={{borderRadius:20}} src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg"/></div>
       </div>
     </div>
   );

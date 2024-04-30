@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BsAndroid } from "react-icons/bs";
+// import { BsAndroid } from "react-icons/bs";
 
 function Eyes() {
   const [angle , setAngle] = useState(0);
@@ -22,7 +22,7 @@ function Eyes() {
           <div className="flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
             <div className="relative w-2/3 h-2/3 bg-zinc-900 rounded-full">
               <div style={{transform:`translate(-50% , -50%) rotate(${angle}deg)`}} className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line  w-36 h-1/4">
-                <div className="mt-2.5 ml-0.5 rounded-full bg-zinc-100 w-5 h-5"></div>
+                <div className="mt-2.5 ml-0.5 rounded-full bg-zinc-100 w-3 h-3"></div>
               </div>
               <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-white uppercase text-md">
                 play
@@ -32,7 +32,7 @@ function Eyes() {
           <div className="flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-100 rounded-full">
             <div className="relative w-2/3 h-2/3 bg-zinc-900 rounded-full">
               <div style={{transform:`translate(-50% , -50%) rotate(${angle}deg)`}} className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line  w-36 h-1/4">
-                <div className="mt-2.5 ml-0.5 rounded-full bg-zinc-100 w-5 h-5"></div>
+                <div className="mt-2.5 ml-0.5 rounded-full bg-zinc-100 w-3 h-3"></div>
               </div>
               <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-white uppercase text-md">
                 play
