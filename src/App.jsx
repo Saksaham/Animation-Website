@@ -8,7 +8,7 @@ import Featured from './components/Featured'
 
 function App() {
   return (
-    <div className = 'w-full min-h-screen text-white bg-zinc-900'>
+    <div className = 'w-full min-h-screen  bg-zinc-100'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>
