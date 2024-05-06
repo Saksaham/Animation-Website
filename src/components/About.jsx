@@ -1,8 +1,8 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 function About() {
   return (
-    <div className="w-full p-20  bg-[#CDEA67] rounded-tl-3xl rounded-tr-3xl text-black">
+    <div data-scroll data-scroll-section data-scroll-speed="-.2" className="w-full p-20  bg-[#CDEA67] text-black ">
       <h1 className='font-["Neue_Montreal"] text-[4vw] leading-[4.5vw] tracking-tight'>
         Ochi is a strategic partner for fast-grow­ing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great
